@@ -1,0 +1,36 @@
+h1 {
+    color: goldenrod;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5px;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    margin: 5px;
+    position: relative;
+
+}
+
+h4 {
+    margin-top: 100px;
+    height: 10px;
+}
+
+.table,tr,th,td {
+            border: 1px solid aquamarine;
+            border-collapse: 5px;
+            border-radius: 5px;
+            padding: 5px;
+}
+
+tr:nth-child(even) { 
+    background-color: purple;
+}
+tr:nth-child(odd) { 
+    background-color: rgba(211, 96, 186, 0.767);
+}
+tr:hover { 
+    background-color: coral
+}
